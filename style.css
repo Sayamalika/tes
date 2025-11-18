@@ -1,0 +1,114 @@
+.w-layout-grid {
+  grid-row-gap: 16px;
+  grid-column-gap: 16px;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  display: grid;
+}
+
+h1{
+color: #fff;
+text-transform: capitalize;
+margin-top: 20px;
+margin-bottom: 10px;
+font-family: Outfit, sans-serif;
+font-size: 72px;
+font-weight: 700;
+line-height: 100%;
+}
+
+.container {
+  box-sizing: border-box;
+  aspect-ratio: auto;
+  max-width: 1040px;
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration: none;
+  position: static;
+
+}
+.container.portofolio {
+  text-align: center;
+  text-decoration: none;
+}
+
+body {
+  background-color: #201529; /* Sets the background color for the entire body */
+  color: #fff;               /* Sets the default text color to white */
+  font-family: 'Open Sans', sans-serif; /* Sets the font */
+}
+
+/* Assuming 'main-grid' is a class used on a grid container element */
+.main-grid {
+  display: grid;            /* Enables CSS Grid layout */
+  grid-column-gap: 100px;   /* Space between columns (deprecated, use 'gap' instead) */
+  grid-row-gap: 100px;      /* Space between rows (deprecated, use 'gap' instead) */
+  gap: 100px;               /* Shorthand for grid-column-gap and grid-row-gap */
+  grid-template-rows: auto; /* Rows will size based on content */
+  place-items: center;      /* Centers grid items horizontally and vertically within their cells */
+  margin-top: 100px;        /* Adds top margin to the grid container */
+}
+
+.img-wrapper {
+  margin-bottom: 100px; /* Note: this is likely overridden later in the sequence */
+  box-sizing: border-box;
+  aspect-ratio: auto;
+  opacity: 1;
+  border-radius: 0;
+  max-width: 60%;
+  margin-top: -60px;
+  /* The next declarations likely appear later in the stylesheet to override earlier ones */
+  margin-bottom: 0; 
+  margin-left: 188px;
+  padding-left: 0;
+  padding-right: 0;
+  overflow: clip;
+}
+
+.navbar {
+  background-color:#000;
+}
+
+/* Styles for an element with the class "title" */
+.title {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-size: 29px;
+  font-family: Outfit, sans-serif;
+}
+
+/* Styles for an element with both "title" and "cta" classes */
+.title.cta {
+  text-align: left; /* This specific title variation is left-aligned */
+}
+
+/* Styles for a "menu" element (assuming an HTML <menu> tag or class) */
+menu {
+  color: #fff;
+  margin-top: 10px;
+  font-family: Outfit, sans-serif;
+}
+
+.grid {
+    /* Note: 'grid-template-rous' is likely a typo for 'grid-template-rows' */
+    /* grid-template-rows: auto auto;  */ 
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 220px;
+}
+
+/* Styles for the class .big-logo */
+.big-logo {
+    max-width: 50%;
+    margin-left: 85px;
+    text-decoration: none;
+}
+
+/* Styles for the class .-grid */
+.-grid {
+    grid-column-gap: 366px;
+    /* Note: 'grid-template-rous' is likely a typo for 'grid-template-rows' */
+    /* grid-template-rows: auto; */
+    margin-top: 0;
+}
